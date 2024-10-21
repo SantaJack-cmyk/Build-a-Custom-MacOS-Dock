@@ -48,7 +48,7 @@ $DOCKUTIL_BINARY --add '/Library/Application Support/Dock Icons/Office 365.weblo
 **Putting it all together**
 
 17.	Create a Jamf Policy and name it
-18.	Attach the 2 packages we just created (or 3+ if you have weblocs in your script):
+18.	Attach Dockutil and the Buildadockagent.pkg we just created (or more if you have weblocs in your script):
 
   #1. Dockutil-3.0.2.pkg  
   #2. Buildadockagent.pkg    
