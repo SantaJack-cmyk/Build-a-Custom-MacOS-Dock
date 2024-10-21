@@ -1,7 +1,7 @@
 ﻿#!/bin/bash
 
 #Set Variable for Current User
-currentuser=$USER
+currentuser=$(/bin/ls -la /dev/console | /usr/bin/cut -d ' ' -f 4)
 echo currentuser-variable = $currentuser
 
 #Make Sure the Launch Agent is Unloaded which allows for re-run
