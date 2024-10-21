@@ -34,7 +34,7 @@ $DOCKUTIL_BINARY --add '/Library/Application Support/Dock Icons/Office 365.weblo
 7.	Download launchd Package Creator: https://github.com/ryangball/launchd-package-creator
 8.	Install and open launchd Package Creator.
 9.	Choose “Launch Agent” and name the Identifier “com.*insert your org name*.buildadock”
-10.	Version: “1.0” ### this doesn't really matter, it can be whatever version you want it to be
+10.	Version: “1.0” (this doesn't really matter, it can be whatever version you want it to be)
 11.	Click “Select Path” and navigate to the location you saved “BuildtheDock.sh”
 12.	Check “Do not package the Target (use existing path in plist)”
 13.	Check “RunAtLoad”
