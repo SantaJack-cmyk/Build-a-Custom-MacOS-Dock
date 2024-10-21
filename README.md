@@ -75,8 +75,8 @@ Deleting the "dockscrap.txt" file from "/Users/Shared/DockFile" will allow the s
 4. In this Policy you should have your 3+ PKG's (outlined in the original Policy explained above) and 2 scripts: "A_Delete Dockscrap.sh" (must run 1st) and "BuildtheDock_ReLoad LaunchAgent" (must run 2nd). In the Policy, set both scripts to run "After" the PKG's install. It's important to keep the naming convention as just described, or else Jamf will not run the scripts in the correct order and it will fail.
 6. Scope to Self-Service.
    * note: on Lab devices, I typically bundle A_Delete Dockscrap.sh with the original policy, it'll delete nothing the first time, since the dockscrap file doesn't exist yet, but if the policy needs to be re-run because I made changes to the dock, it will delete the dockscrap. (new application, or lab coordinator wanted apps in a different location) 
-![image](https://user-images.githubusercontent.com/104439807/165342728-a6e54d98-2805-4991-b007-1bc4667f4c4c.png)
 
+![image](https://github.com/user-attachments/assets/bda54eaa-876d-4061-918f-5f684140d280)
 
 **Endnotes:**
 
