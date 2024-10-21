@@ -53,9 +53,7 @@ $DOCKUTIL_BINARY --add '/Library/Application Support/Dock Icons/Office 365.weblo
   #1. Dockutil-3.0.2.pkg  
   #2. Buildadockagent.pkg    
   #3. Office365.webloc.pkg (optional)  
-
-![image](https://user-images.githubusercontent.com/104439807/165319011-d4cc4cba-e839-47f4-b137-36f5c62780d6.png)
-
+![image](https://github.com/user-attachments/assets/0771c69e-d44e-4b62-8c1a-7a42457b9505)
 
 19.	Attach the Script **“BuildtheDock_Reload LaunchAgent.sh”** and set the Priority to run After other actions.
 
