@@ -27,7 +27,7 @@ If you want to re-run the custom dock again, this is possible and can be scoped 
 
 $DOCKUTIL_BINARY --add '/Library/Application Support/Dock Icons/Office 365.webloc' --label 'Office 365' --no-restart
 
-6.	Copy the **"BuildtheDock.sh"** into your jamf script repository, this will allow us to more easily modify the script if dock icons need to be updated, rather than composer packaging the script.
+6.	Copy the **"BuildtheDock.sh"** into your jamf script repository and set it's priority to before, this will allow us to more easily modify the script if dock icons need to be updated, rather than composer packaging the script.
 
 **Create a Launch Agent (.plist) that will run the above script when loaded**
 
