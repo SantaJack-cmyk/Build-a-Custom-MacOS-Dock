@@ -53,11 +53,12 @@ $DOCKUTIL_BINARY --add '/Library/Application Support/Dock Icons/Office 365.weblo
   #1. Dockutil-3.0.2.pkg  
   #2. Buildadockagent.pkg    
   #3. Office365.webloc.pkg (optional)  
+  
 ![image](https://github.com/user-attachments/assets/0771c69e-d44e-4b62-8c1a-7a42457b9505)
 
 19.	Attach the Script **“BuildtheDock_Reload LaunchAgent.sh”** and set the Priority to run After other actions.
-
-![image](https://user-images.githubusercontent.com/104439807/165331996-6653c5b4-f49a-4807-a0c6-e56278e761f9.png)
+    
+![image](https://github.com/user-attachments/assets/4124aac1-d267-4be4-babc-ce4edce02303)
 
 
 20.	Scope the Policy to your devices to run on recurring check-in, once per device. 
